@@ -1,0 +1,12 @@
+# Sky Courier — Island Run: what stays out of the repository.
+# The hand-in output of `node main.ts` is generated, never committed.
+out/
+# Local Node tooling and editor state, if any ever lands here.
+node_modules/
+.DS_Store
+Thumbs.db
+# The transcript bundle the coordinator makes at submit time lives outside the repo.
+transcripts.tar.gz
+*.log
+# Screenshots are built locally first; only the final four in screenshots/ are kept.
+screenshots/tmp/
